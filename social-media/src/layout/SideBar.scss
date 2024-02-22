@@ -1,0 +1,27 @@
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 18%;
+    // height: 100vh;
+    overflow-y: scroll;
+    background-color: white;
+    // padding: 5px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+  }
+
+  @media screen and (max-width: 500px){
+    .sidenav {
+      display: none;
+      
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .sidenav {
+      display: none;
+      
+    }
+  }

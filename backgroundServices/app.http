@@ -1,0 +1,4 @@
+
+### Fetching/getting all users
+GET http://localhost:5000/mail
+
